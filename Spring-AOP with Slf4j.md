@@ -51,6 +51,14 @@ Spring AOP는 런타임 시점에 적용하는 방식을 사용한다. 컴파일
 	- JointPoint의 상세한 스펙을 정의한 것.
 	- '특정 method의 진입 시점에 호출할 것'과 같이 더욱 구체적으로 Advice가 실행될 지점을 정할 수 있음
 
+|Wildcard|설명|
+|------|---|
+|*|ㅁㄴㅇ|
+| .. |ㅁㄴㅇ|
+
+
+
+
 ```xml
 <dependency>
 	<groupId>org.springframework.boot</groupId> 
@@ -59,7 +67,6 @@ Spring AOP는 런타임 시점에 적용하는 방식을 사용한다. 컴파일
 ```
 
 ### Result code
-
 ```java
 @Component  
 @Aspect  
