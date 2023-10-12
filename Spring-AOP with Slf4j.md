@@ -80,10 +80,9 @@ PointCut은 `PCD`(Pointcut Designator) 이라 하는 특정 지정자를 선언
 |+|클래스명 뒤에 붙여 쓰며, 해당 클래스와 해당 클래스의 서브클래스, 혹은 구현 클래스 모두를 의미한다.|
 
 
-
-
 ### Dependency
 ```xml
+// JDK17, SpringBoot 3.x
 <dependency>
 	<groupId>org.springframework.boot</groupId> 
 	<artifactId>spring-boot-starter-aop</artifactId>
@@ -138,4 +137,4 @@ public class ControllerLogAspect {
 ```
 
 
-Spring AOP와 slf4j를 HandyOne의 SpringBoot 코드(v23.9.11)에 적용하였다. 이로 인하여 많은 중log 출력 코드를 제거하여 
+Spring AOP와 slf4j를 HandyOne의 SpringBoot 코드(v23.9.11)에 적용하였다. 이로 인하여 많은 중복, 반복되는 log 출력 코드를 제거하여 가독성을 높였다.
