@@ -1,6 +1,8 @@
 
 ## AOP(Aspect-Oriented Programming)
 
+> `컴퓨팅`에서 관점 지향 프로그래밍(aspect-oriented programming, AOP)은 횡단 관심사(cross-cutting concern)의 분리를 허용함으로써 모듈성을 증가시키는 것이 목적인 프로그래밍 패러다임이다. 
+> 출처:  [위키백과](https://ko.wikipedia.org/wiki/%EA%B4%80%EC%A0%90_%EC%A7%80%ED%96%A5_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
 
 
 #### 기존 방식
@@ -134,3 +136,6 @@ public class ControllerLogAspect {
     }  
 }
 ```
+
+
+Spring AOP와 slf4j를 적용함으로써 HandyOne의 SpringBoot 코드에서 많은 log 출력코드를 제거하여 많은 
