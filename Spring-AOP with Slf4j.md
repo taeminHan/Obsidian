@@ -6,7 +6,6 @@
 #### 기존 방식
 
 ```java
-
 //...
 private final Logger logger = LoggerFactory.getLogger(this.getClass());
 //...
@@ -63,7 +62,8 @@ PointCut은 `PCD`(Pointcut Designator) 이라 하는 특정 지정자를 선언
 |execution|기본적인 PCD|
 |within|패키지와 클래스를 제한하는 PCD|
 
-`within`은 `excution`과 비슷하지만, method가 아니라 특정 타입에 속한 method를 PointCut으로 설정할 때 사용한다. 똫
+`within`은 `excution`과 비슷하지만, method가 아니라 특정 타입에 속한 method를 PointCut으로 설정할 때 사용한다. 또한 @Controller, @Service, @Repository 처럼 어노테이션을 사용해서 AOP를 사용할 수 있다.
+
 `@within`은 클래스에 특정 어노테이션이 지정되어 있으면, 해당 클래스의 모든 메서드에 Advice를 적용한다.
 ```java
 // @RestController가 선언되어 있는 클래스의 모든 메서드에 적용
@@ -72,7 +72,7 @@ PointCut은 `PCD`(Pointcut Designator) 이라 하는 특정 지정자를 선언
 
 
 |Wildcard|설명|
-|------|---|
+|---|---|
 |&#42;|기본적으로 임의의 문자열을 의미한다. 패키지를 표현할 때는 임의의 패키지 1개 계층을 의미한다. 메서드의 매개변수를 표현할 때는 임의의 인수 1개를 의미한다.|
 |..|패키지를 표현할 때는 임의의 패키지 0개 이상 계층을 의미한다. 메서드의 매개변수를 표현할 때는 임의의 인수 0개 이상을 의미한다.|
 |+|클래스명 뒤에 붙여 쓰며, 해당 클래스와 해당 클래스의 서브클래스, 혹은 구현 클래스 모두를 의미한다.|
