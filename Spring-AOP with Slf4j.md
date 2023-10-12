@@ -1,6 +1,10 @@
 
 ## AOP(Aspect-Oriented Programming)
 
+
+
+#### 기존 방식
+
 ```java
 
 //...
@@ -15,3 +19,4 @@ logger.info("START, method A")
 	logger.error("ERROR, exception {}", e);
 }
 ```
+흔히 lf4j
