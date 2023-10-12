@@ -38,6 +38,15 @@ Spring AOP는 런타임 시점에 적용하는 방식을 사용한다. 컴파일
 - Advice
 	- 어떤 일을 해야 할 지에 대한 것, 부가 기능의 구현체
 	- Aspect를 언제 적용할지 정의
+	- 
+
+|Type(Annotaion)|설명|
+|------|---|
+|@Before|JoinPoint 실행 이전에 실행, 일반적으로 retrun Type은 void|
+|@AfterReturning|JoinPooint 완료 후 실행|
+|@AfterThrowing|특정 위치|
+|@After|테스트3|
+|@Around|테스트3|
 
 - PointCut
 	- JointPoint의 상세한 스펙을 정의한 것.
