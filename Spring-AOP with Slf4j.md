@@ -11,7 +11,7 @@ logger.debug("debug anything");
 logger.info("START, method A")
 
 //...
-catch(Excetion e){
+} catch(Excetion e){
 	logger.error("ERROR, exception {}", e);
 }
 ```
