@@ -63,9 +63,13 @@ PointCut은 `PCD`(Pointcut Designator) 이라 하는 특정 지정자를 선언
 |execution|기본적인 PCD|
 |within|패키지와 클래스를 제한하는 PCD|
 
+`within`은 `excution`과 비슷하지만, method가 아니라 특정 타입에 속한 method를 PointCut으로 설정할 때 사용한다. 똫
+`@within`은 클래스에 특정 어노테이션이 지정되어 있으면, 해당 클래스의 모든 메서드에 Advice를 적용한다.
 ```java
-
+// @RestController가 선언되어 있는 클래스의 모든 메서드에 적용
+@Pointcut("within(@org.springframework.web.bind.annotation.RestController *)")
 ```
+
 
 |Wildcard|설명|
 |------|---|
