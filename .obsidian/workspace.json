@@ -11,8 +11,12 @@
             "id": "534cef2633fd33fd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Spring-AOP with Slf4j.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
