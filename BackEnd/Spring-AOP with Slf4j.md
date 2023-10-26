@@ -137,4 +137,4 @@ public class ControllerLogAspect {
 ```
 
 
-Spring AOP와 slf4j를 HandyOne의 SpringBoot 코드(v23.9.11)에 적용하였다. 이로 인하여 많은 중복, 반복되는 log 출력 코드를 제거하여 가독성을 높였다.
+Spring AOP와 slf4j를 적용하였다. 이로 인하여 많은 중복, 반복되는 log 출력 코드를 제거하여 가독성을 높였다.

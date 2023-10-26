@@ -21,14 +21,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring-AOP with Slf4j.md",
+                "file": "BackEnd/클라우드 마이크로서비스 디자인 패턴.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring-AOP with Slf4j.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring-AOP with Slf4j.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Spring-AOP with Slf4j.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -155,8 +150,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6823588dc97816ea",
+  "active": "a8bb139395b982f3",
   "lastOpenFiles": [
-    "Spring-AOP with Slf4j.md"
+    "BackEnd",
+    "BackEnd/클라우드 마이크로서비스 디자인 패턴.md",
+    "BackEnd/Spring-AOP with Slf4j.md"
   ]
 }
